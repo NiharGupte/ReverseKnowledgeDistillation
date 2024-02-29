@@ -3,11 +3,11 @@
 This repository contains the code and models for our paper. [Link to our paper](https://openaccess.thecvf.com/content/WACV2024/papers/Nasser_Reverse_Knowledge_Distillation_Training_a_Large_Model_Using_a_Small_WACV_2024_paper.pdf).
 We would like to thank the authors of [Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching](https://arxiv.org/abs/2207.07932) as this repository is built upon their code. Here is the [link](https://github.com/ruc-aimc-lab/SuperRetina) for their code.
 
-
-*Image: Representation of our pipeline.*
+## Representation of our pipeline
 ![Pipeline Architecture](readme_images/architecture.png)
 
 
+## Model Checkpoints
 [Download the models here](https://drive.google.com/file/d/1iJ5BuXMSRofnztZOyJVdNxdnszHT9rXH/view?usp=sharing).
 The models.zip contains three models : 
 - SuperRetina.pth was trained by the authors of [Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching](https://arxiv.org/abs/2207.07932)
@@ -16,6 +16,7 @@ The models.zip contains three models :
 
 Unzip this folder in your directory.
 
+## Data files
 [Download the data here](https://drive.google.com/file/d/1KPQShIKWGK9oehneKqQFgMCPdQQU0dEm/view?usp=sharing)
 The data.zip contains 2 folders : 
 - Auxilliary_Training
