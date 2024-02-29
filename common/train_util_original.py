@@ -166,18 +166,6 @@ def train_model(model, optimizer, dataloaders, device, num_epochs, train_config)
                     state = {'net': model.state_dict(), 'optimizer': optimizer.state_dict(), 'epoch': epoch}
                     torch.save(state,model_save_path + "_" +  f"{epoch}")
 
-#                     config['PREDICT']['model_save_path'] = model_save_path + "_" +  f"{epoch}"
-#                     with open(config_path,"w") as f:
-#                         yaml.dump(config, f)
-                    
-#                     os.system("python test_on_FIRE.py")
-
-#                     with open('filename.pickle', 'rb') as handle:
-#                         b = pickle.load(handle)
-                    
-#                     wandb.log(b)
-
-                # continue
             print('-' * 10 + 'phase:' + phase + '\t PKE_learn:' + str(model.PKE_learn) + '-' * 10)
 
             if 'train' in phase:

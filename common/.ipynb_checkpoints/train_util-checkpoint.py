@@ -143,7 +143,7 @@ def train_model(model, optimizer, dataloaders, device, num_epochs, train_config)
     value_maps_running = None
     if not is_value_map_save:
         value_maps_running = {}
-    wandb.init(project="SuperRetina-project_transformer_knowledge_26-06-2023",name="SwinUnetr_Knowledge_Distillation_teacher_LKUNET")
+    wandb.init(project="Project_Name",name="Project_Run_Name")
     for epoch in range(num_epochs):
         print('Epoch {}/{}'.format(epoch, num_epochs - 1))
 
@@ -166,18 +166,6 @@ def train_model(model, optimizer, dataloaders, device, num_epochs, train_config)
                     state = {'net': model.state_dict(), 'optimizer': optimizer.state_dict(), 'epoch': epoch}
                     torch.save(state,model_save_path + "_" +  f"{epoch}")
 
-#                     config['PREDICT']['model_save_path'] = model_save_path + "_" +  f"{epoch}"
-#                     with open(config_path,"w") as f:
-#                         yaml.dump(config, f)
-                    
-#                     os.system("python test_on_FIRE.py")
-
-#                     with open('filename.pickle', 'rb') as handle:
-#                         b = pickle.load(handle)
-                    
-#                     wandb.log(b)
-
-                # continue
             print('-' * 10 + 'phase:' + phase + '\t PKE_learn:' + str(model.PKE_learn) + '-' * 10)
 
             if 'train' in phase:
