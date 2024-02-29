@@ -1,10 +1,12 @@
 # Reverse Knowledge Distillation : Training a larger model with a smaller one. 
-This repository contains the code and models for our paper. We would like to thank the authors of [Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching](https://arxiv.org/abs/2207.07932) as this repository is built upon their code. Here is the [link](https://github.com/ruc-aimc-lab/SuperRetina) for their code.
 
-[Link to our paper](https://openaccess.thecvf.com/content/WACV2024/papers/Nasser_Reverse_Knowledge_Distillation_Training_a_Large_Model_Using_a_Small_WACV_2024_paper.pdf)
+This repository contains the code and models for our paper. [Link to our paper](https://openaccess.thecvf.com/content/WACV2024/papers/Nasser_Reverse_Knowledge_Distillation_Training_a_Large_Model_Using_a_Small_WACV_2024_paper.pdf).
+We would like to thank the authors of [Semi-Supervised Keypoint Detector and Descriptor for Retinal Image Matching](https://arxiv.org/abs/2207.07932) as this repository is built upon their code. Here is the [link](https://github.com/ruc-aimc-lab/SuperRetina) for their code.
 
-![Pipeline Architecture](readme_images/architecture.png)
+
 *Image: Representation of our pipeline.*
+![Pipeline Architecture](readme_images/architecture.png)
+
 
 [Download the models here](https://drive.google.com/file/d/1iJ5BuXMSRofnztZOyJVdNxdnszHT9rXH/view?usp=sharing).
 The models.zip contains three models : 
@@ -53,7 +55,7 @@ Note : We will soon be uploading the checkpoints and data format for the Facial 
 ## Citations
 
 If this repository helps you, please feel free to cite our paper
-'''
+```
 @inproceedings{nasser2024reverse,
   title={Reverse Knowledge Distillation: Training a Large Model using a Small One for Retinal Image Matching on Limited Data},
   author={Nasser, Sahar Almahfouz and Gupte, Nihar and Sethi, Amit},
@@ -61,7 +63,7 @@ If this repository helps you, please feel free to cite our paper
   pages={7778--7787},
   year={2024}
 }
-'''
+```
 
 ## Contact
 
