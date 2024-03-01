@@ -1,9 +1,0 @@
-PREDICT:
-  device: cuda:0
-  knn_thresh: 0.9
-  model_image_height: 768
-  model_image_width: 768
-  model_save_path: ./save/SwinEncoder.pth
-  nms_size: 10
-  nms_thresh: 0.01
-  use_matching_trick: true
