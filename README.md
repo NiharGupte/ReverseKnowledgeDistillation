@@ -49,7 +49,7 @@ Note : In order to test the LKUNET.pth only, you can also create a conda environ
 ## Train and Test scripts
 
 - Run test_on_FIRE.py after changing model configurations in config/test.yml 
-- The training files for base model, LK model and swin model are provided in the respective train_base.py, train_lk.py and train_swin.py respectively
+- The training files for base model, LK model and swin model are provided in the respective train_base.py, train_LK.py and train_Swin.py respectively
   
 ## Using Pretrained Models
 
