@@ -17,7 +17,7 @@ The models.zip contains three models :
 Unzip this folder in your directory.
 
 ## Data files
-[Download the data here](https://drive.google.com/file/d/1KPQShIKWGK9oehneKqQFgMCPdQQU0dEm/view?usp=sharing)
+[Download the data here](https://drive.google.com/file/d/1YWBi-xanw5ai8-R-jSoM8ns3vF09sF2K/view?usp=sharing)
 The data.zip contains 2 folders : 
 - Auxilliary_Training
 - Our_data which contains retinal images with manual keypoint annotation
@@ -46,7 +46,11 @@ Note : In order to test the LKUNET.pth only, you can also create a conda environ
     conda env create -f environment.yml
     conda activate SwinRetina
     ```
+## Train and Test scripts
 
+- Run test_on_FIRE.py after changing model configurations in config/test.yml 
+- The training files for base model, LK model and swin model are provided in the respective train_base.py, train_lk.py and train_swin.py respectively
+  
 ## Using Pretrained Models
 
 You can use the models directly by changing the config/test.yml with the model path.
